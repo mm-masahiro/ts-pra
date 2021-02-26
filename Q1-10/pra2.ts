@@ -5,4 +5,5 @@ type Foo = {
 	age?: number;
 }
 
+// 全てのプロパティを必須に
 type RequiredFoo = Required<Foo>;
